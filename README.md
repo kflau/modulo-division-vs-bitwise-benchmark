@@ -5,6 +5,14 @@ This project aims to demostrate 1's complement and 2's complement in Java and be
 * bitwise
 * lowest bit
 
+For each approach, four cases are run in 400 repetitions. The results are computed in mean and standard deviation.
+* positive even integer
+* positive odd integer
+* negative even integer
+* negative odd integer
+
+Result shows bitwise is the fastest and the most stable approach with mean=727.38ns and sd=510.364694ns.
+
 ## Benchmark Result
 ![alt text](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7f9yvj6Qn7yFXI6iOthRmuqQX4gXVF5khYj9RL-acvnJiTK5sehcnEkkdoZVwi2Ibcp5WuuSPok3E/pubchart?oid=879078498&format=image)
 
