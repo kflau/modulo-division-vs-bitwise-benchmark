@@ -11,7 +11,7 @@ For each approach, four cases are run in 400 repetitions. The results are comput
 * negative even integer (~981122778+1)
 * negative odd integer (~981122771+1)
 
-Result shows bitwise is the fastest and the most stable approach with mean=727.38ns and sd=510.364694ns.
+Result shows bitwise is the fastest response time and the most stable approach with mean=727.38ns and sd=510.364694ns.
 
 ## Benchmark Result
 ![alt text](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7f9yvj6Qn7yFXI6iOthRmuqQX4gXVF5khYj9RL-acvnJiTK5sehcnEkkdoZVwi2Ibcp5WuuSPok3E/pubchart?oid=879078498&format=image)
