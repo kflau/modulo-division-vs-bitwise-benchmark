@@ -1,4 +1,4 @@
-package com.aei.bit.modulus.cheatsheet;
+package com.aei.bit.modulo.benchmark;
 
 import org.junit.Test;
 
