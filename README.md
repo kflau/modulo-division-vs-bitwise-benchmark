@@ -5,7 +5,7 @@ This project aims to benchmark test modulo operations using 3 approaches:
 * bitwise
 * lowest bit
 
-For each approach, four cases are run in 400 repetitions. Each repetition a large integer, L, is passed in to determine if even or odd. Negative integer is set using 2's complement. The results are computed in mean and standard deviation.
+For each approach, four cases are run in 1000 repetitions. Each repetition a large integer, L, is passed in to determine if even or odd. Negative integer is set using 2's complement. The results are computed in mean and standard deviation.
 * positive even integer (981122778)
 * positive odd integer (981122771)
 * negative even integer (~981122778+1)
