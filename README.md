@@ -27,7 +27,7 @@ In normal modulo approach, CPU processor performs integer division by simply sub
 In bitwise modulo approach, CPU processor performs L AND 0x1 to ensure the rightmost bit is set.
 
 ## Benchmark Result
-![normal modulo approach](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7f9yvj6Qn7yFXI6iOthRmuqQX4gXVF5khYj9RL-acvnJiTK5sehcnEkkdoZVwi2Ibcp5WuuSPok3E/pubchart?oid=879078498&format=image)
+![normal modulo approach](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7f9yvj6Qn7yFXI6iOthRmuqQX4gXVF5khYj9RL-acvnJiTK5sehcnEkkdoZVwi2Ibcp5WuuSPok3E/pubchart?oid=1442758449&format=image)
 
 mean 818.65ns | sd 641.8667852ns
 
