@@ -1,11 +1,11 @@
 # modulus-benchmark
 
-This project aims to demostrate 1's complement and 2's complement in Java and benchmark test modulo operations using 3 approaches:
+This project aims to benchmark test modulo operations using 3 approaches:
 * normal
 * bitwise
 * lowest bit
 
-For each approach, four cases are run in 400 repetitions. The results are computed in mean and standard deviation.
+For each approach, four cases are run in 400 repetitions. Each repetition a large integer is passed in to determine if even or odd. Negative integer is set using 2's complement. The results are computed in mean and standard deviation.
 * positive even integer (981122778)
 * positive odd integer (981122771)
 * negative even integer (~981122778+1)
