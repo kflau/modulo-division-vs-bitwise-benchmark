@@ -11,7 +11,7 @@ public class BitwiseModulusTest {
 
     @Parameterized.Parameters
     public static Object[][] data() {
-        return new Object[100][0];
+        return new Object[15000][0];
     }
 
     @Test
