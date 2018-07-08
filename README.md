@@ -11,7 +11,7 @@ For each approach, four cases are run in 15000 repetitions. Each repetition a la
 * negative even integer (~981122778+1)
 * negative odd integer (~981122771+1)
 
-Result shows bitwise is the fastest response time and the most stable approach with mean=727.38ns and sd=510.364694ns.
+Result shows bitwise is the fastest response time and the most stable approach with mean=141.2504ns and sd=193.6351007ns.
 * normal
   * mean 141.5801887ns
   * sd 270.0700275ns
@@ -24,7 +24,7 @@ Result shows bitwise is the fastest response time and the most stable approach w
 
 In normal modulo approach, CPU processor performs integer division by simply subtracting the divisor iteratively and counting the iterations before the result turn negative. Remainder resides in accumulator register when the last positive result is computed.
 
-In bitwise modulo approach, CPU processor performs L AND 0x1 to ensure the rightmost bit is set.
+In bitwise modulo approach, CPU processor performs L AND 0x00000001 to ensure the rightmost bit is set.
 
 ## Benchmark Result
 ![normal modulo approach](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7f9yvj6Qn7yFXI6iOthRmuqQX4gXVF5khYj9RL-acvnJiTK5sehcnEkkdoZVwi2Ibcp5WuuSPok3E/pubchart?oid=1442758449&format=image)
