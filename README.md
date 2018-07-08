@@ -5,7 +5,7 @@ This project aims to benchmark test modulo operations using 3 approaches:
 * bitwise
 * lowest bit
 
-For each approach, four cases are run in 15000 repetitions. Each repetition a large integer, L, is passed in to determine if even or odd. Negative integer is set using 2's complement. The results are computed in mean and standard deviation.
+For each approach, four cases are run in 15000 repetitions. Each repetition a large 32bit integer, L, is passed in to determine if even or odd. Negative integer is set using 2's complement. The results are computed in mean and standard deviation.
 * positive even integer (981122778)
 * positive odd integer (981122771)
 * negative even integer (~981122778+1)
@@ -24,7 +24,7 @@ Result shows bitwise is the fastest response time and the most stable approach w
 
 In normal modulo approach, CPU processor performs integer division by simply subtracting the divisor iteratively and counting the iterations before the result turn negative. Remainder resides in accumulator register when the last positive result is computed.
 
-In bitwise modulo approach, CPU processor performs L AND 0x00000001 to ensure the rightmost bit is set.
+In bitwise modulo approach, CPU processor performs L AND 0x1 to ensure the rightmost bit is set.
 
 ## Benchmark Result
 ![normal modulo approach](https://docs.google.com/spreadsheets/d/e/2PACX-1vS7f9yvj6Qn7yFXI6iOthRmuqQX4gXVF5khYj9RL-acvnJiTK5sehcnEkkdoZVwi2Ibcp5WuuSPok3E/pubchart?oid=1442758449&format=image)
