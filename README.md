@@ -8,8 +8,8 @@ This project aims to demostrate 1's complement and 2's complement in Java and be
 For each approach, four cases are run in 400 repetitions. The results are computed in mean and standard deviation.
 * positive even integer (981122778)
 * positive odd integer (981122771)
-* negative even integer (981122778)
-* negative odd integer (981122771)
+* negative even integer (~981122778+1)
+* negative odd integer (~981122771+1)
 
 Result shows bitwise is the fastest and the most stable approach with mean=727.38ns and sd=510.364694ns.
 
