@@ -1,8 +1,8 @@
 # modulus-benchmark
 
 This project aims to demostrate 1's complement and 2's complement in Java and benchmark test modulo operations using 3 approaches:
-* bitwise
 * normal
+* bitwise
 * lowest bit
 
 ## Benchmark Result
