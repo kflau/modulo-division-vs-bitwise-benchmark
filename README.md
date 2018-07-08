@@ -1,4 +1,4 @@
-# modulus-benchmark
+# modulo-division-vs-bitwise-benchmark
 
 This project aims to benchmark test modulo operations using 3 approaches:
 * division instruction
